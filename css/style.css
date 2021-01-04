@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(178, 169, 169);
+    text-align: center;
+}
+section {
+    border-radius: 20%;
+    padding: 30px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+}
+.left {
+    width: 50%;
+    float: left;
+    height: 40px;
+}
+.right {
+    width: 50%;
+    height: 40px;
+    float: right;
+}
+.flex {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 

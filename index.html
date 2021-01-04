@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <section>
+        <p>Создать объект, описывающий автомобиль (производитель, модель, год выпуска, средняя скорость), и следующие функции для работы с этим объектом:<br>
+
+            Функция для вывода на экран информации об автомобиле;<br>
+            
+            Функция для подсчета необходимого времени для преодоления переданного расстояния со средней скоростью. Учтите, что через каждые 4 часа дороги водителю необходимо делать перерыв на 1 час.</p>
+           <button onclick="buttomInfo()">инфа о машине</button>
+            <input type="number" id="km" placeholder="сколько едем км?">
+            <button onclick="timeInRoad()">Считаем</button>
+            <p id="answerFild"></p>
+    </section>
+    <br>
+    <br>
+    <section>
+        <p>Создать объект, описывающий время (часы, минуты, секунды), и следующие функции для работы с этим объектом: <br>
+
+            Функция вывода времени на экран; <br>
+            
+            Функция изменения времени на переданное количество секунд; <br>
+            
+            Функция изменения времени на переданное количество минут; <br>
+            
+            Функция изменения времени на переданное количество часов.  <br>
+            
+            Учтите, что в последних 3-х функциях, при изменении одной части времени, может измениться и другая. Например, если ко времени «20:30:45» добавить 30 секунд, то должно получиться «20:31:15», а не «20:30:75».</p>
+          
+               <div class="flex">
+                   <div><button onclick="timeNow()">Показать время сейчас</button></div>
+                   <div><input type="number" placeholder="изменить секунды" id="setSec"><br><button onclick="sec()">Изменить время</button></div>
+                </div>
+                <br>
+                <div class="flex">
+                    <div><input type="number" placeholder="изменить минуты" id="setMin"><br><button onclick="min()">Изменить время</button></div>
+                    <div><input type="number" placeholder="изменить часы" id="setHow"><br><button onclick="how()">Изменить время</button></div>
+                 </div>
+              
+      
+           
+            
+            <p id="timeFild"></p>
+    </section>
+</body>
+</html>
